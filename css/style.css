@@ -1,0 +1,400 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  background: linear-gradient(105deg, #7D5A50 0.6%, #B4846C 48.23%, #E5B299 95.86%);
+  font-family: 'Poppins', sans-serif;
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.outside-container {
+  margin: 2.5rem;
+  padding: 2.5rem;
+  background: #FCDEC0;
+  border-radius: 1rem;
+  box-shadow: 0 0px 2.2px rgba(0, 0, 0, 0.028), 0 0px 5.3px rgba(0, 0, 0, 0.04), 0 0px 10px rgba(0, 0, 0, 0.05);
+  justify-content: center;
+  justify-items: center;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.container-wrapper, .wrapper {
+  background: #fff;
+  width: 90%;
+  padding: 2rem;
+  box-shadow: 0 0px 2.2px rgba(0, 0, 0, 0.028), 0 0px 5.3px rgba(0, 0, 0, 0.04), 0 0px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 1rem;
+  justify-content: center;
+}
+
+h1 {
+  background-color: #B4846C;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  border-radius: 0.5rem;
+}
+
+h2, h4 {
+  background: #B4846C;
+  color: white;
+  letter-spacing: 0.1rem;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  cursor: default;
+}
+
+form, input, button {
+  font-family: inherit;
+  font-size: initial;
+}
+
+.input, .input_checkbox {
+  width: 100%;
+  padding: 1rem 1rem;
+}
+
+input[type="text"] {
+  justify-content: center;
+  border: 1px solid #7D5A50;
+  min-width: 300px;
+  height: 3.2rem;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  padding: 0rem 0.5rem;
+}
+
+.label-custom {
+  margin-bottom: -10rem;
+  margin-left: 1rem;
+}
+
+.search-container {
+  width: 100%;
+  padding: 0rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+#bookSubmit, #searchSubmit {
+  font-size: 80%;
+  padding: 1rem;
+  background-color: #E5B299;
+  color: #7D5A50;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  transition: ease-in-out 0.15s;
+}
+
+#bookSubmit:hover, #searchSubmit:hover {
+  border-radius: 1rem solid #fff;
+  background-color: #FCDEC0;
+}
+
+img {
+  margin-top: 5%;
+  max-width: 120px;
+  height: auto;
+}
+
+.green {
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #C3EDC0;
+  margin-right: 10px;
+}
+
+.red {
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #FF9B9B;
+}
+
+span {
+  color: red;
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    border-radius: 0.5rem;
+  }
+
+  .outside-container {
+    max-width: 1024px;
+    height: auto;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-wrapper, .wrapper {
+    width: auto;
+    padding: 1.5rem;
+  }
+
+  form, input, button {
+    font-family: inherit;
+    font-size: initial;
+  }
+  
+  .input, .input_checkbox {
+    width: 100%;
+    padding: 0.5rem 0.5rem;
+  }
+  
+  input[type="text"] {
+    border: 1px solid #7D5A50;
+    min-width: 300px;
+    height: 2.5rem;
+    padding: 0rem 0.5rem;
+  }
+
+  h1 {
+    width: auto;
+    padding: 0.5rem;
+  }
+
+  .book_shelf h2 {
+    width: 230px;
+    height: auto;
+  }
+
+  .search-container {
+    display: flex;
+    flex-direction: column;
+  }
+  #bookSubmit {
+    padding: 0.5rem;
+    border-radius: 1rem;
+  }
+  #searchSubmit {
+    width: 200px;
+    padding: 0.5rem;
+    border-radius: 1rem;
+  }
+
+  img {
+    margin-top: 5%;
+    max-width: 100px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  body {
+    border-radius: 0.5rem;
+    padding: 1rem;
+  }
+
+  .main-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .outside-container {
+    max-width: 750px;
+    height: auto;
+    padding: 1.5rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-wrapper, .wrapper {
+    width: auto;
+    padding: 2rem 1rem;
+  }
+
+  form, input, button {
+    font-family: inherit;
+    font-size: initial;
+  }
+  
+  .input, .input_checkbox {
+    width: 100%;
+    padding: 1rem 0.5rem;
+  }
+  
+  input[type="text"] {
+    border: 1px solid #7D5A50;
+    min-width: 670px;
+    height: 2.5rem;
+    padding: 0rem 0.5rem;
+  }
+
+  h1, h2, h4 {
+    width: auto;
+    padding: 0.5rem;
+  }
+
+  .search-container {
+    display: flex;
+    flex-direction: column;
+  }
+  #bookSubmit {
+    padding: 0.5rem;
+    border-radius: 1rem;
+  }
+  #searchSubmit {
+    width: 200px;
+    padding: 0.5rem;
+    border-radius: 1rem;
+  }
+
+  img {
+    margin-top: 5%;
+    max-width: 100px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  body {
+    border-radius: 0.5rem;
+    padding: 0;
+  }
+
+  .main-container {
+    flex-direction: column;
+  }
+
+  .outside-container {
+    max-width: 350px;
+    height: auto;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-wrapper, .wrapper {
+    width: auto;
+    padding: 1.5rem;
+  }
+
+  form, input, button {
+    font-family: inherit;
+    font-size: initial;
+  }
+  
+  .input, .input_checkbox {
+    width: 100%;
+    padding: 0.5rem 0.5rem;
+  }
+  
+  input[type="text"] {
+    border: 1px solid #7D5A50;
+    min-width: 300px;
+    height: 2.5rem;
+    padding: 0rem 0.5rem;
+  }
+
+  h1, h2, h4 {
+    width: auto;
+    padding: 0.5rem;
+  }
+
+  .search-container {
+    display: flex;
+    flex-direction: column;
+  }
+  #bookSubmit {
+    padding: 0.5rem;
+    border-radius: 1rem;
+  }
+  #searchSubmit {
+    width: 200px;
+    padding: 0.5rem;
+    border-radius: 1rem;
+  }
+
+  img {
+    margin-top: 5%;
+    max-width: 100px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  body {
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+  }
+
+  .main-container {
+    flex-direction: column;
+  }
+
+  .outside-container {
+    max-width: 250px;
+    height: auto;
+    padding: 0.5rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-wrapper, .wrapper {
+    width: auto;
+    padding: 1rem;
+  }
+
+  form, input, button {
+    font-family: inherit;
+    font-size: initial;
+  }
+  
+  .input, .input_checkbox {
+    width: 100%;
+    padding: 0.5rem 0.5rem;
+  }
+  
+  input[type="text"] {
+    border: 1px solid #7D5A50;
+    min-width: 200px;
+    height: 2.5rem;
+    padding: 0rem 0.5rem;
+  }
+
+  h1, h2, h4 {
+    width: auto;
+    padding: 0.5rem;
+  }
+
+  .search-container {
+    display: flex;
+    flex-direction: column;
+  }
+  #bookSubmit {
+    padding: 0.5rem;
+    border-radius: 1rem;
+  }
+  #searchSubmit {
+    width: 200px;
+    padding: 0.5rem;
+    border-radius: 1rem;
+  }
+
+  img {
+    margin-top: 5%;
+    max-width: 100px;
+    height: auto;
+  }
+}

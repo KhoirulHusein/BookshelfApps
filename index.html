@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookshelf Apps</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="outside-container">
+      <header>
+        <h1 class="tittle"> Bookshelf Apps</h1>
+      </header>
+      <main class="main-container">
+        <div class="container-wrapper">
+          <h2>Menambahkan Buku Baru</h2>
+          <form id="inputBook">
+            <div class="input">
+              <label for="inputBookTitle">Judul <span>*</span></label>
+              <input type="text" id="inputBookTitle" required>  
+            </div>
+            <div class="input">
+              <label for="inputBookAuthor">Penulis <span>*</span></label>
+              <input type="text" id="inputBookAuthor" required>
+            </div>
+            <div class="input">
+              <label for="inputBookYear">Tahun <span>*</span></label>
+              <input type="text" id="inputBookYear" required>
+            </div>
+            <div class="input">
+              <label>Example cover buku</label>
+              <input type="text" value="http://tinyurl.com/example-cover" readonly>
+            </div>
+            <div class="input">
+              <label for="inputBookImage">URL Gambar Buku</label>
+              <input type="text" id="inputBookImage">
+            </div>
+            <div class="input_checkbox">
+              <label for="inputBookIsComplete">Selesai dibaca</label>
+              <input type="checkbox" id="inputBookIsComplete" checked="true">
+            </div>
+  
+            <button id="bookSubmit" type="submit">Masukkan Buku ke rak Belum selesai dibaca</button>
+          </form>
+        </div>
+  
+        <div class="wrapper">
+          <section class="search_section">
+            <h2>Cari Buku (Opsional)</h2>
+            <form id="searchBook">
+              <label class="label-custom" for="searchBookTitle">Judul Buku</label>
+              <div class="search-container">
+                <input id="searchBookTitle" type="text">
+                <button id="searchSubmit" type="submit">Cari</button>
+              </div>
+            </form>
+          </section>
+        </div>
+  
+        <div class="wrapper">
+          <section class="book_shelf">
+            <h2>Belum selesai dibaca</h2>
+            
+            <div id="incompleteBookshelfList" class="book_list">
+              <!-- <article class="book_item">
+                <h3>Book Title</h3>
+                <p>Penulis: John Doe</p>
+                <p>Tahun: 2002</p>
+            
+                <div class="action">
+                  <button class="green">Selesai dibaca</button>
+                  <button class="red">Hapus buku</button>
+                </div>
+              </article> -->
+            </div>
+          </section>
+          
+          <section class="book_shelf">
+            <h2>Selesai dibaca</h2>
+            
+            <div id="completeBookshelfList" class="book_list">
+              <!-- <article class="book_item">
+                <h3>Book Title</h3>
+                <p>Penulis: John Doe</p>
+                <p>Tahun: 2002</p>
+                
+                <div class="action">
+                  <button class="green">Belum selesai di Baca</button>
+                  <button class="red">Hapus buku</button>
+                </div>
+              </article> -->
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
