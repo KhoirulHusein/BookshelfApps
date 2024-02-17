@@ -1,7 +1,7 @@
 # BookshelfApps
 
 <p align="center">
-  <img src="https://github.com/KhoirulHusein/BookshelfApps/blob/master/image/favicon.png" alt="BookshelfApps Logo">
+  <img src="https://github.com/KhoirulHusein/BookshelfApps/blob/master/image/favicon.png" alt="BookshelfApps Logo" width="300px" height="300px">
 </p>
 
 <h3 align="center">Tracking Your Reading Journey</h3>
@@ -129,27 +129,27 @@ $ cd BookshelfApps
 
 To run the project, execute the following command in the project directory:
 
-1 Open a project and click to Go Live from the status bar to turn the server on/off.
+1. Open a project and click to Go Live from the status bar to turn the server on/off.
 
 <p align="center">
-  <img src="https://github.com/ritwickdey/vscode-live-server/raw/HEAD/images/Screenshot/vscode-live-server-statusbar-3.jpg" alt="Live server tutorial">
+  <img src="https://github.com/ritwickdey/vscode-live-server/raw/HEAD/images/Screenshot/vscode-live-server-statusbar-3.jpg" alt="Live server tutorial" width="50%" height="auto">
 </p>
 
-2 Right click on a HTML file from Explorer Window and click on Open with Live Server.
+2. Right click on a HTML file from Explorer Window and click on Open with Live Server.
 
 <p align="center">
-  <img src="https://github.com/ritwickdey/vscode-live-server/raw/HEAD/images/Screenshot/vscode-live-server-explorer-menu-demo-1.gif" alt="Live server tutorial">
+  <img src="https://github.com/ritwickdey/vscode-live-server/raw/HEAD/images/Screenshot/vscode-live-server-explorer-menu-demo-1.gif" alt="Live server tutorial" width="50%" height="auto">
 </p>
 
-3 Open a HTML file and right-click on the editor and click on Open with Live Server.
+3. Open a HTML file and right-click on the editor and click on Open with Live Server.
 
 <p align="center">
-  <img src="https://github.com/ritwickdey/vscode-live-server/raw/HEAD/images/Screenshot/vscode-live-server-editor-menu-3.jpg" alt="Live server tutorial">
+  <img src="https://github.com/ritwickdey/vscode-live-server/raw/HEAD/images/Screenshot/vscode-live-server-editor-menu-3.jpg" alt="Live server tutorial" width="50%" height="auto">
 </p>
 
-4 Hit (alt+L, alt+O) to Open the Server and (alt+L, alt+C) to Stop the server (You can change the shortcut form keybinding). [On MAC, cmd+L, cmd+O and cmd+L, cmd+C]
+4. Hit (alt+L, alt+O) to Open the Server and (alt+L, alt+C) to Stop the server (You can change the shortcut form keybinding). [On MAC, cmd+L, cmd+O and cmd+L, cmd+C]
 
-5 Open the Command Pallete by pressing F1 or ctrl+shift+P and type Live Server: Open With Live Server to start a server or type Live Server: Stop Live Server to stop a server.
+5. Open the Command Pallete by pressing F1 or ctrl+shift+P and type Live Server: Open With Live Server to start a server or type Live Server: Stop Live Server to stop a server.
 
 ## BookshelfApps Project Resources
 
